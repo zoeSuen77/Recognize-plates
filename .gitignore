@@ -1,0 +1,31 @@
+__pycache__/
+*.pyc
+.DS_Store
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tar
+*.tar.*
+*.zip
+~$*.docx
+
+# Large/generated datasets and training outputs are kept local.
+data/
+datasets/
+runs/
+results/
+models/
+yolo*.pt
+
+# Internal document QA renders.
+reports/final_report_render/
+data/license_plates/cropped/
+data/ccpd/raw/
+data/ccpd/train/
+data/ccpd/val/
+data/ccpd/test/
+data/self_photos/raw/
+data/self_photos/cropped/
+models/*.pth
+results/
